@@ -65,9 +65,8 @@ const Resume = () => {
             <DotFilledIcon />
           </Box>
           <Text size="3" ml="1">
-            Coordinated communication between the design team and subcontractors 
-            through meetings and jobsite walks to resolve conflicts and field 
-            issues
+            Communicated current progress and potential obstacles of respective 
+            trades to owner during key stakeholder meetings
           </Text>
           <Box mt="1">
             <DotFilledIcon />
@@ -75,6 +74,21 @@ const Resume = () => {
           <Text size="3" ml="1">
             Managed interns by providing mentorship on construction processes, 
             directing work assignments, and conducting periodic performance reviews
+          </Text>
+          <Box mt="1">
+            <DotFilledIcon />
+          </Box>
+          <Text size="3" ml="1">
+            Supported transition of new team members through training on 
+            project-specific software
+          </Text>
+          <Box mt="1">
+            <DotFilledIcon />
+          </Box>
+          <Text size="3" ml="1">
+            Initiated coordination between design and construction teams through 
+            targeted meetings, job site walks, and formal records of contract 
+            questions to resolve field issues
           </Text>
         </Grid>
         <Text size="3">
@@ -99,8 +113,9 @@ const Resume = () => {
             <DotFilledIcon />
           </Box>
           <Text size="3" ml="1">
-            Maintained punchlist by documenting pending construction items and 
-            overseeing their resolution to work towards project completion
+            Assisted project engineer in completing final outstanding 
+            construction items by overseeing item resolution by subcontractors 
+            and coordinating with owner and end users to establish expectations
           </Text>
         </Grid>
         
