@@ -36,7 +36,7 @@ const AboutMe = () => {
         </Text>
         <Text size="3">
           I am currently a student at USC, anticipating graduation at the end of 
-          Spring 2026, and aiming to secure a software engineering role. I am 
+          Spring 2027, and aiming to secure a software engineering role. I am 
           excited about the opportunities ahead and am committed to 
           continuously learning and growing in this field!
         </Text>

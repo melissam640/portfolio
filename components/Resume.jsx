@@ -137,13 +137,6 @@ const Resume = () => {
             Implemented updates to a live website by contributing to an 
             open-source repository
           </Text>
-          <Box mt="1">
-            <DotFilledIcon />
-          </Box>
-          <Text size="3" ml="1">
-            Coordinated with other developers using 
-            GitHub for project tracking, pull requests, and issue resolution
-          </Text>
         </Grid>
         
         <Heading size="7" mb="4">
