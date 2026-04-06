@@ -15,118 +15,155 @@ const Resume = () => {
       {/* Resume Section */}
       <Flex p="3" direction="column" width="100%">
         <Link align="right" mb="-2" href={resume}>View PDF</Link>
-
-        <Heading size="7" mb="4">
-          Technical Skills
-        </Heading>
-        <Text size="3" mb="6">
-          Python | JavaScript | Java | HTML | CSS | React | Git
-        </Text>
         
         <Heading size="7" mb="4">
           Education
         </Heading>
-        <Text size="3">
+        <Text size="5">
           <Strong>University of Southern California</Strong>
-          , Los Angeles, CA — Master of Science, Computer Science - Scientists 
-          and Engineers
         </Text>
         <Text size="3" mb="4">
+          Master of Science, Computer Science (Scientists and Engineers) — 
           February 2025 - Current
         </Text>
-        <Text size="3">
+        <Text size="5">
           <Strong>California Polytechnic State University</Strong>
-          , San Luis Obispo, CA — Bachelor of Science, Construction Management
         </Text>
         <Text size="3" mb="6">
+          Bachelor of Science, Construction Management — 
           September 2015 - June 2019
         </Text>
         
         <Heading size="7" mb="4">
           Professional Experience
         </Heading>
-        <Text size="3">
-          <Strong>Bernards Builders</Strong>
-          , Los Angeles, CA — Senior Project Engineer
+        <Text size="5">
+          <Strong>Bernards Builders</Strong>, Los Angeles, CA
         </Text>
-        <Text size="3" mb="4">
-          July 2019 - August 2023
+        <Text size="3" mb="2" ml="6">
+          <Strong>Senior Project Engineer</Strong> — November 2021 - August 2023
         </Text>
-        <Grid columns="auto 1fr" gap="2" mb="6" width="100%">
+        <Grid columns="auto 1fr" gap="2" mb="2" ml="6" width="100%">
           <Box mt="1">
             <DotFilledIcon />
           </Box>
           <Text size="3" ml="1">
-            Organized and controlled project elements for 8 structural and finish 
-            trades from pre-construction to punchlist (project completion 
-            process) on an $120M multi-family project
+            Initiated coordination between design and construction teams to 
+            deliver structural and finish elements for a $120M construction 
+            project through targeted meetings, job site walks, and formal 
+            records of contract questions
           </Text>
           <Box mt="1">
             <DotFilledIcon />
           </Box>
           <Text size="3" ml="1">
-            Communicated current progress and potential obstacles of respective 
-            trades to owner during key stakeholder meetings
+            Communicated status and potential obstacles of 8 respective 
+            subcontractors to owner representatives during weekly stakeholder 
+            meetings
           </Text>
           <Box mt="1">
             <DotFilledIcon />
           </Box>
           <Text size="3" ml="1">
-            Managed interns by providing mentorship on construction processes, 
-            directing work assignments, and conducting periodic performance reviews
-          </Text>
-          <Box mt="1">
-            <DotFilledIcon />
-          </Box>
-          <Text size="3" ml="1">
-            Supported transition of new team members through training on 
-            project-specific software
-          </Text>
-          <Box mt="1">
-            <DotFilledIcon />
-          </Box>
-          <Text size="3" ml="1">
-            Initiated coordination between design and construction teams through 
-            targeted meetings, job site walks, and formal records of contract 
-            questions to resolve field issues
+            Maintained a remaining work list for 300+ apartment units by 
+            identifying issues with owner representatives and assigning work to 
+            subcontractors to facilitate project completion
           </Text>
         </Grid>
-        <Text size="3">
-          <Strong>Herrero Builders</Strong>
-          , San Francisco, CA — Project Engineer Intern
+        <Text size="3" mb="2" ml="6">
+          <Strong>Project Engineer</Strong> — July 2019 - November 2021
         </Text>
-        <Text size="3">
-          July 2018 - September 2018
-        </Text>
-        <Text size="3" mb="4">
-          June 2017 - August 2017
-        </Text>
-        <Grid columns="auto 1fr" gap="2" mb="6" width="100%">
+        <Grid columns="auto 1fr" gap="2" mb="4" ml="6" width="100%">
           <Box mt="1">
             <DotFilledIcon />
           </Box>
           <Text size="3" ml="1">
-            Authored formal requests for information (RFIs) by collaborating with 
-            field team to clarify details and requirements of the project
+            Resolved design conflicts and unexpected site conditions by 
+            evaluating contractual requirements and physical work in the field 
+            to provide solutions for design team approval
           </Text>
           <Box mt="1">
             <DotFilledIcon />
           </Box>
           <Text size="3" ml="1">
-            Assisted project engineer in completing final outstanding 
-            construction items by overseeing item resolution by subcontractors 
-            and coordinating with owner and end users to establish expectations
+            Managed an assigned intern by directing work assignments, providing 
+            mentorship on the construction process, and conducting periodic 
+            performance reviews
           </Text>
         </Grid>
+        <Text size="5">
+          <Strong>Herrero Builders</Strong>, San Francisco
+        </Text>
+        <Text size="3" mb="2" ml="6">
+          <Strong>Project Engineer Intern</Strong> — July 2018 - September 2018
+        </Text>
+        <Grid columns="auto 1fr" gap="2" mb="2" ml="6" width="100%">
+          <Box mt="1">
+            <DotFilledIcon />
+          </Box>
+          <Text size="3" ml="1">
+            Authored formal information requests to architect by collaborating 
+            with construction team to resolve conflicts on a $12M construction 
+            project
+          </Text>
+          <Box mt="1">
+            <DotFilledIcon />
+          </Box>
+          <Text size="3" ml="1">
+            Created progress records for a 30,000 sq. ft. building by 
+            documenting stages of completion of every room, determining when 
+            appropriate to report damage or issues
+          </Text>
+          <Box mt="1">
+            <DotFilledIcon />
+          </Box>
+          <Text size="3" ml="1">
+            Supported the estimating team on a bid for a 12,600 sq. ft. 
+            renovation by analyzing historic square footage estimates and 
+            performing quantity takeoffs
+          </Text>
+        </Grid>
+        <Text size="3" mb="2" ml="6">
+          <Strong>Project Engineer Intern</Strong> — June 2017 - August 2017
+        </Text>
+        <Grid columns="auto 1fr" gap="2" mb="6" ml="6" width="100%">
+          <Box mt="1">
+            <DotFilledIcon />
+          </Box>
+          <Text size="3" ml="1">
+            Assisted project engineer with tracking remaining work for a 
+            122,700 sq. ft. building by organizing outstanding items and 
+            monitoring work process daily
+          </Text>
+          <Box mt="1">
+            <DotFilledIcon />
+          </Box>
+          <Text size="3" ml="1">
+            Arranged city inspections requested by subcontractors, 
+            communicating scheduled inspections to project team
+          </Text>
+          <Box mt="1">
+            <DotFilledIcon />
+          </Box>
+          <Text size="3" ml="1">
+            Documented issues blocking final occupancy by independently walking 
+            with owner's representatives to advance the project towards 
+            completion
+          </Text>
+        </Grid>
+
+        <Heading size="7" mb="4">
+          Technical Skills
+        </Heading>
+        <Text size="3" mb="6">
+          Python | JavaScript | Java | C/C++ | Node | Express | React | Radix | Git | VS Code
+        </Text>
         
         <Heading size="7" mb="4">
           Volunteer Experience
         </Heading>
         <Text size="3">
-          <Strong>Hack for LA</Strong>
-          , Los Angeles, CA
-        </Text>
-        <Text size="3" mb="4">
+          <Strong>Hack for LA</Strong>, Civic Tech Organization — 
           June 2024 - August 2024
         </Text>
         <Grid columns="auto 1fr" gap="2" mb="6" width="100%">
@@ -144,7 +181,7 @@ const Resume = () => {
         </Heading>
         <Text size="3">
           <Strong>Hackbright Academy</Strong>
-          , San Francisco, CA — Software Engineering Bootcamp
+          , San Francisco, CA — Software Engineering Fellowship
         </Text>
         <Text size="3" mb="6">
           February 2024 - May 2024

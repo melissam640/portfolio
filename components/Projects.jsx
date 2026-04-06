@@ -1,10 +1,12 @@
 import { Flex, Box, Grid, Text, Heading, Link } from "@radix-ui/themes";
 import { SiPython, SiFlask, SiPostgresql, SiSqlalchemy, SiJavascript, SiHtml5, 
-	SiCss3, SiBootstrap, SiJinja, SiNodedotjs, SiExpress, SiReact } 
+	SiCss3, SiBootstrap, SiJinja, SiNodedotjs, SiExpress, SiReact, SiRadixui, 
+    SiMongodb } 
 	from "react-icons/si";
 import ProjectIcon from "./ProjectIcon";
 import totalview from '../src/assets/totalview1.gif';
 import zanzibar from '../src/assets/zanzibar.gif';
+import eventSearch from '../src/assets/event-search.gif';
 import './Projects.css';
 
 const Projects = () => {
@@ -17,8 +19,35 @@ const Projects = () => {
       </Box>
 
 	  <Grid columns={{ initial: "1", md: "1fr 2fr" }} p="4" gap="6" align="center">
+
+		{/* Row 1 */}
+		  <Box>
+			<img src={eventSearch} alt="event search gif" className="project-gif" />
+		  </Box>
+          <Box className="project-description" p="3">
+			<Heading as="div" size="7" mb="3" weight="bold">
+			  Event Search
+			</Heading>
+			<Text color="gray" size="3">
+				An event search app powered by Ticketmaster that allows a user 
+				to search for events, view event information, and save events by 
+				adding them to favorites.
+			</Text>
+			<Text color="gray" size="3" mt="3">
+				Visit <Link href="https://event-search2-477705.wl.r.appspot.com/search" color="indigo">here</Link>. 
+			</Text>
+			<Grid className="project-icons" columns="7" gap="3" rows="1" mt="3">
+			  <ProjectIcon displayName="Node.js"><SiNodedotjs/></ProjectIcon>
+			  <ProjectIcon displayName="Express"><SiExpress/></ProjectIcon>
+			  <ProjectIcon displayName="React"><SiReact/></ProjectIcon>
+			  <ProjectIcon displayName="HTML"><SiHtml5/></ProjectIcon>
+			  <ProjectIcon displayName="CSS"><SiCss3/></ProjectIcon>
+			  <ProjectIcon displayName="Radix"><SiRadixui/></ProjectIcon>
+			  <ProjectIcon displayName="MongoDB"><SiMongodb/></ProjectIcon>
+			</Grid>
+          </Box>
           
-		  {/* Row 1 */}
+		{/* Row 2 */}
           <Box>
 			<img src={totalview} alt="totalview gif" className="project-gif" />
 		  </Box>
@@ -47,7 +76,7 @@ const Projects = () => {
 			</Grid>
           </Box>
 
-		  {/* Row 2 */}
+		{/* Row 3 */}
 		  <Box>
 			<img src={zanzibar} alt="zanzibar gif" className="project-gif" />
 		  </Box>
