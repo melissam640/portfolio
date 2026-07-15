@@ -1,12 +1,13 @@
 import { Flex, Box, Grid, Text, Heading, Link } from "@radix-ui/themes";
 import { SiPython, SiFlask, SiPostgresql, SiSqlalchemy, SiJavascript, SiHtml5, 
 	SiCss3, SiBootstrap, SiJinja, SiNodedotjs, SiExpress, SiReact, SiRadixui, 
-    SiMongodb } 
+    SiMongodb, SiTailwindcss, SiGooglegemini } 
 	from "react-icons/si";
 import ProjectIcon from "./ProjectIcon";
 import totalview from '../src/assets/totalview1.gif';
 import zanzibar from '../src/assets/zanzibar.gif';
 import eventSearch from '../src/assets/event-search.gif';
+import bookRecs from '../src/assets/book-recs-gif.gif';
 import './Projects.css';
 
 const Projects = () => {
@@ -21,6 +22,33 @@ const Projects = () => {
 	  <Grid columns={{ initial: "1", md: "1fr 2fr" }} p="4" gap="6" align="center">
 
 		{/* Row 1 */}
+		  <Box>
+			<img src={bookRecs} alt="book recommendations gif" className="project-gif" />
+		  </Box>
+          <Box className="project-description" p="3">
+			<Heading as="div" size="7" mb="3" weight="bold">
+			  Bookshelf Recs
+			</Heading>
+			<Text color="gray" size="3">
+				An app that allows a user to upload a photo of their bookshelf 
+				and receive personal book recommendations based on the books 
+				they own using Google Gemini API and Open Library API.
+			</Text>
+			<Text color="gray" size="3" mt="3">
+				Visit <Link href="https://bookshelf-recs.wl.r.appspot.com/" color="indigo">here</Link>. 
+			</Text>
+			<Grid className="project-icons" columns="7" gap="3" rows="1" mt="3">
+			  <ProjectIcon displayName="Node.js"><SiNodedotjs/></ProjectIcon>
+			  <ProjectIcon displayName="Express"><SiExpress/></ProjectIcon>
+			  <ProjectIcon displayName="React"><SiReact/></ProjectIcon>
+			  <ProjectIcon displayName="HTML"><SiHtml5/></ProjectIcon>
+			  <ProjectIcon displayName="CSS"><SiCss3/></ProjectIcon>
+			  <ProjectIcon displayName="Tailwind CSS"><SiTailwindcss/></ProjectIcon>
+			  <ProjectIcon displayName="Google Gemini"><SiGooglegemini/></ProjectIcon>
+			</Grid>
+          </Box>
+
+		{/* Row 2 */}
 		  <Box>
 			<img src={eventSearch} alt="event search gif" className="project-gif" />
 		  </Box>
@@ -47,7 +75,7 @@ const Projects = () => {
 			</Grid>
           </Box>
           
-		{/* Row 2 */}
+		{/* Row 3 */}
           <Box>
 			<img src={totalview} alt="totalview gif" className="project-gif" />
 		  </Box>
@@ -76,7 +104,7 @@ const Projects = () => {
 			</Grid>
           </Box>
 
-		{/* Row 3 */}
+		{/* Row 4 */}
 		  <Box>
 			<img src={zanzibar} alt="zanzibar gif" className="project-gif" />
 		  </Box>
