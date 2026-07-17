@@ -156,7 +156,7 @@ const Resume = () => {
           Technical Skills
         </Heading>
         <Text size="3" mb="6">
-          Python | JavaScript | Java | C/C++ | Node | Express | React | Radix | Git | VS Code
+          Python | JavaScript | C/C++ | Node | Express | React | Tailwind | Git | VS Code/Copilot
         </Text>
         
         <Heading size="7" mb="4">
