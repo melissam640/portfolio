@@ -35,7 +35,7 @@ const Projects = () => {
 				they own using Google Gemini API and Open Library API.
 			</Text>
 			<Text color="gray" size="3" mt="3">
-				Visit <Link href="https://bookshelf-recs.wl.r.appspot.com/" color="indigo">here</Link>. 
+				View on <Link href="https://github.com/melissam640/book-recs" color="indigo">GitHub</Link> or visit <Link href="https://bookshelf-recs.wl.r.appspot.com/" color="indigo">here</Link>. 
 			</Text>
 			<Grid className="project-icons" columns="7" gap="3" rows="1" mt="3">
 			  <ProjectIcon displayName="Node.js"><SiNodedotjs/></ProjectIcon>
@@ -62,7 +62,7 @@ const Projects = () => {
 				adding them to favorites.
 			</Text>
 			<Text color="gray" size="3" mt="3">
-				Visit <Link href="https://event-search2-477705.wl.r.appspot.com/search" color="indigo">here</Link>. 
+				View on <Link href="https://github.com/melissam640/event-search" color="indigo">GitHub</Link> or visit <Link href="https://event-search2-477705.wl.r.appspot.com/search" color="indigo">here</Link>. 
 			</Text>
 			<Grid className="project-icons" columns="7" gap="3" rows="1" mt="3">
 			  <ProjectIcon displayName="Node.js"><SiNodedotjs/></ProjectIcon>
