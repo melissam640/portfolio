@@ -14,7 +14,7 @@ const Resume = () => {
 
       {/* Resume Section */}
       <Flex p="3" direction="column" width="100%">
-        <Link align="right" mb="-2" href={resume}>View PDF</Link>
+        {/* <Link align="right" mb="-2" href={resume}>View PDF</Link> */}
         
         <Heading size="7" mb="4">
           Education
@@ -24,14 +24,14 @@ const Resume = () => {
         </Text>
         <Text size="3" mb="4">
           Master of Science, Computer Science (Scientists and Engineers) — 
-          February 2025 - Current
+          Expected Spring 2027
         </Text>
         <Text size="5">
           <Strong>California Polytechnic State University</Strong>
         </Text>
         <Text size="3" mb="6">
           Bachelor of Science, Construction Management — 
-          September 2015 - June 2019
+          June 2019
         </Text>
         
         <Heading size="7" mb="4">
@@ -49,7 +49,7 @@ const Resume = () => {
           </Box>
           <Text size="3" ml="1">
             Initiated coordination between design and construction teams to 
-            deliver structural and finish elements for a $120M construction 
+            deliver structural and finish elements for a $140M construction 
             project through targeted meetings, job site walks, and formal 
             records of contract questions
           </Text>
@@ -74,6 +74,23 @@ const Resume = () => {
           <Strong>Project Engineer</Strong> — July 2019 - November 2021
         </Text>
         <Grid columns="auto 1fr" gap="2" mb="4" ml="6" width="100%">
+          <Box mt="1">
+            <DotFilledIcon />
+          </Box>
+          <Text size="3" ml="1">
+            Supported project manager in buyout process by drafting 
+            subcontractor scopes of work for finish trades, procuring updated 
+            bids and qualification data, and creating authorization to award 
+            documents
+          </Text>
+          <Box mt="1">
+            <DotFilledIcon />
+          </Box>
+          <Text size="3" ml="1">
+            Produced project status reports for review by owner representatives 
+            for monthly billing through analysis of schedule and work progress 
+            in field
+          </Text>
           <Box mt="1">
             <DotFilledIcon />
           </Box>
